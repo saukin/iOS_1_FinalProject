@@ -7,15 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FC65DAC626711E560058639F /* SliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC65DAC526711E560058639F /* SliderView.swift */; };
 		FCC8F537266EFC2100E354D6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC8F536266EFC2100E354D6 /* AppDelegate.swift */; };
 		FCC8F539266EFC2200E354D6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC8F538266EFC2200E354D6 /* SceneDelegate.swift */; };
 		FCC8F53B266EFC2200E354D6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC8F53A266EFC2200E354D6 /* ViewController.swift */; };
 		FCC8F53E266EFC2200E354D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCC8F53C266EFC2200E354D6 /* Main.storyboard */; };
 		FCC8F540266EFC2500E354D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCC8F53F266EFC2500E354D6 /* Assets.xcassets */; };
 		FCC8F543266EFC2500E354D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCC8F541266EFC2500E354D6 /* LaunchScreen.storyboard */; };
+		FCC8F551266EFDDD00E354D6 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC8F54E266EFDDC00E354D6 /* Game.swift */; };
+		FCC8F552266EFDDD00E354D6 /* QuestionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC8F54F266EFDDC00E354D6 /* QuestionManager.swift */; };
+		FCC8F553266EFDDD00E354D6 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC8F550266EFDDC00E354D6 /* Question.swift */; };
+		FCC8F555266F1D9100E354D6 /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC8F554266F1D9100E354D6 /* QuestionView.swift */; };
+		FCE6762326719F510096CD78 /* GifHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE6762226719F510096CD78 /* GifHandler.swift */; };
+		FCE676292671A14D0096CD78 /* bravo.gif in Resources */ = {isa = PBXBuildFile; fileRef = FCE676282671A14D0096CD78 /* bravo.gif */; };
+		FCE6762B2671A1680096CD78 /* wasted.gif in Resources */ = {isa = PBXBuildFile; fileRef = FCE6762A2671A1680096CD78 /* wasted.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FC65DAC526711E560058639F /* SliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderView.swift; sourceTree = "<group>"; };
 		FCC8F533266EFC2100E354D6 /* ProjetFinale.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjetFinale.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCC8F536266EFC2100E354D6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FCC8F538266EFC2200E354D6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +33,13 @@
 		FCC8F53F266EFC2500E354D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FCC8F542266EFC2500E354D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FCC8F544266EFC2500E354D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCC8F54E266EFDDC00E354D6 /* Game.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		FCC8F54F266EFDDC00E354D6 /* QuestionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionManager.swift; sourceTree = "<group>"; };
+		FCC8F550266EFDDC00E354D6 /* Question.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		FCC8F554266F1D9100E354D6 /* QuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
+		FCE6762226719F510096CD78 /* GifHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GifHandler.swift; sourceTree = "<group>"; };
+		FCE676282671A14D0096CD78 /* bravo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = bravo.gif; path = ../../../../bravo.gif; sourceTree = "<group>"; };
+		FCE6762A2671A1680096CD78 /* wasted.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = wasted.gif; path = ../../../../wasted.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +72,55 @@
 		FCC8F535266EFC2100E354D6 /* ProjetFinale */ = {
 			isa = PBXGroup;
 			children = (
-				FCC8F536266EFC2100E354D6 /* AppDelegate.swift */,
-				FCC8F538266EFC2200E354D6 /* SceneDelegate.swift */,
-				FCC8F53A266EFC2200E354D6 /* ViewController.swift */,
-				FCC8F53C266EFC2200E354D6 /* Main.storyboard */,
-				FCC8F53F266EFC2500E354D6 /* Assets.xcassets */,
-				FCC8F541266EFC2500E354D6 /* LaunchScreen.storyboard */,
-				FCC8F544266EFC2500E354D6 /* Info.plist */,
+				FCC8F54A266EFC3500E354D6 /* View */,
+				FCC8F54B266EFC4400E354D6 /* Model */,
+				FCC8F54D266EFC5700E354D6 /* Supporting Files */,
+				FCC8F54C266EFC4D00E354D6 /* Controller */,
 			);
 			path = ProjetFinale;
+			sourceTree = "<group>";
+		};
+		FCC8F54A266EFC3500E354D6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FCC8F53C266EFC2200E354D6 /* Main.storyboard */,
+				FCC8F554266F1D9100E354D6 /* QuestionView.swift */,
+				FC65DAC526711E560058639F /* SliderView.swift */,
+				FCC8F541266EFC2500E354D6 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FCC8F54B266EFC4400E354D6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FCC8F54E266EFDDC00E354D6 /* Game.swift */,
+				FCC8F54F266EFDDC00E354D6 /* QuestionManager.swift */,
+				FCC8F550266EFDDC00E354D6 /* Question.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FCC8F54C266EFC4D00E354D6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FCC8F53A266EFC2200E354D6 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FCC8F54D266EFC5700E354D6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FCC8F538266EFC2200E354D6 /* SceneDelegate.swift */,
+				FCE676282671A14D0096CD78 /* bravo.gif */,
+				FCE6762A2671A1680096CD78 /* wasted.gif */,
+				FCC8F536266EFC2100E354D6 /* AppDelegate.swift */,
+				FCE6762226719F510096CD78 /* GifHandler.swift */,
+				FCC8F53F266EFC2500E354D6 /* Assets.xcassets */,
+				FCC8F544266EFC2500E354D6 /* Info.plist */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,6 +184,8 @@
 				FCC8F543266EFC2500E354D6 /* LaunchScreen.storyboard in Resources */,
 				FCC8F540266EFC2500E354D6 /* Assets.xcassets in Resources */,
 				FCC8F53E266EFC2200E354D6 /* Main.storyboard in Resources */,
+				FCE6762B2671A1680096CD78 /* wasted.gif in Resources */,
+				FCE676292671A14D0096CD78 /* bravo.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,8 +197,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				FCC8F53B266EFC2200E354D6 /* ViewController.swift in Sources */,
+				FC65DAC626711E560058639F /* SliderView.swift in Sources */,
 				FCC8F537266EFC2100E354D6 /* AppDelegate.swift in Sources */,
+				FCE6762326719F510096CD78 /* GifHandler.swift in Sources */,
 				FCC8F539266EFC2200E354D6 /* SceneDelegate.swift in Sources */,
+				FCC8F555266F1D9100E354D6 /* QuestionView.swift in Sources */,
+				FCC8F553266EFDDD00E354D6 /* Question.swift in Sources */,
+				FCC8F552266EFDDD00E354D6 /* QuestionManager.swift in Sources */,
+				FCC8F551266EFDDD00E354D6 /* Game.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,7 +350,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5V2CQ8ZSEH;
-				INFOPLIST_FILE = ProjetFinale/Info.plist;
+				INFOPLIST_FILE = "ProjetFinale/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,7 +368,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5V2CQ8ZSEH;
-				INFOPLIST_FILE = ProjetFinale/Info.plist;
+				INFOPLIST_FILE = "ProjetFinale/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
