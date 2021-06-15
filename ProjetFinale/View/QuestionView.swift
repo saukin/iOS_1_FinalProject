@@ -36,7 +36,7 @@ class QuestionView: UIView {
     
     
     func setFontSize(_ newFontSize: CGFloat) {
-        questionLabel.font = UIFont(name: questionLabel.font.fontName, size: newFontSize)
+        questionLabel.font = UIFont.systemFont(ofSize: newFontSize)
     }
     
     func showQuestionView() {
